@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="en-US" prefix="og: https://ogp.me/ns#">
+<head>
+    <meta charSet="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <!-- <link rel="icon" href="https://developer.mozilla.org/favicon-48x48.bc390275e955dacb2e65.png" />
+    <link rel="apple-touch-icon" href="https://developer.mozilla.org/apple-touch-icon.528534bba673c38049c2.png" /> -->
+    <title>Downloader of cell phone/mobile towers/cells</title>
+    <!-- <link rel="alternate" type="application/rss+xml" title="MDN Blog RSS Feed"
+        href="https://developer.mozilla.org/en-US/blog/rss.xml" hrefLang="en" /> -->
+</head>
+<body>
+    <!--
+        Firefox and Chrome don't allow local HTML files or websites to open "data:" URLs
+        (https://developer.mozilla.org/en-US/docs/Web/URI/Schemes/data) other than downloading:
+
+        FAILS: <a href="data:application/octet-stream;charset=utf-8;,Hello%2C%20World%21"
+        download="xx.txt">data:,Hello%2C%20World%21</a>
+
+        WORKS: <a href="data:application/octet-stream;charset=utf-16le;,Hello%2C%20World%21"
+        download="filename-here.txt">data:,Hello%2C%20World%21</a>
+
+        But browsers put limits on such URLs: 32MB in Firefox!
+    -->
+    <script type="text/javascript">
+        "use strict";
+        /// Following
+        /// https://stackoverflow.com/questions/3665115/how-to-create-a-file-in-memory-for-user-to-download-but-not-through-server.
+        window.open("data:,Hello%2C%20World%21", "_blank");
+    </script>
+    <p>
+        This program is free software: you can redistribute it and/or modify it under the terms of
+        the GNU General Public License as published by the Free Software Foundation, either version
+        3 of the License, or (at your option) any later version. See <a
+        href="LICENSE.md">LICENSE.md</a>.
+    </p>
+    <p>
+        This program does not carry or distribute any cell tower data with it. The default data
+        source for this program is <a
+        href="https://github.com/RemoCell/CellsData">RemoCell/CellsData</a>, which is licensed under
+        the <a href="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons
+        Attribution-ShareAlike 4.0 International License</a>.
+    </p>
+    <p>
+        But the choice to use it is up to you:  This program will not access that default data
+        source without your action. It could be also used with other data sources if compatible: The
+        convention for storage file paths and their format is open and documented.
+    </p>
+    <p>
+        If you choose to use it with that data (one from <a
+        href="https://github.com/RemoCell/CellsData">RemoCell/CellsData</a>), know that it is
+        derived from <a href="https://opencellid.org/downloads.php">OpenCelliD data</a> and from
+        <a href="https://en.wikipedia.org">Wikipedia</a> (<a
+        href="https://en.wikipedia.org/wiki/Mobile_country_code">Mobile country code</a> and related
+        Wikipedia pages).
+    </p>
+    <p>
+        <img alt="Creative Commons Attribution-ShareAlike"
+        src="https://opencellid.org/images/ccbysa_4.0_80x15.png"/> <a
+        href="https://opencellid.org">OpenCelliD Project</a> is licensed under a <a
+        href="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons
+        Attribution-ShareAlike 4.0 International License</a>.
+    </p>
+    <p>
+        Data and text on Wikipedia is available under the <a
+        href="https://en.wikipedia.org/wiki/Wikipedia:Text_of_the_Creative_Commons_Attribution-ShareAlike_4.0_International_License">Creative
+        Commons Attribution-ShareAlike 4.0 License</a>.
+    </p>
+</body>    
+</html>

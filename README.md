@@ -1,7 +1,7 @@
 # Future goal
 
-This software isn't developed yet. Goal: Dwnload cellular/mobile cells (towers) data, and later also
-signal (strength) data; show it offline on top of a (mainstream) offline map.
+This software isn't developed yet. Goal: Download cellular/mobile cells (towers) data, and later
+also signal (strength) data; show it offline on top of a (mainstream) offline map.
 
 # For now
 
@@ -64,7 +64,7 @@ Attribution-ShareAlike 4.0 International License](https://creativecommons.org/li
 Data and text on Wikipedia is available under the [Creative Commons Attribution-ShareAlike 4.0
 License](https://en.wikipedia.org/wiki/Wikipedia:Text_of_the_Creative_Commons_Attribution-ShareAlike_4.0_International_License).
 
-### SOFTWARE IS ALLOWED ON MOBILE APP STORES
+### ALLOWED ON MOBILE APP STORES
 
 This software is and will always be under GNU GPL license, either version 3 of the License, or (at
 your option) any later version. See [LICENSE.md](LICENSE.md).
@@ -140,8 +140,8 @@ The initial author (Peter Lyons Kehl) declares that
 ### LICENSE AND INDEMNITY
 
 This data, and any contributions, are under [GNU GPL license version 3](LICENSE.md), with an extra
-[indemnity supplement](LICENSE-SUPPLEMENT-INDEMNITY.md) (as allowed by part "7. Additional Terms" of
-GNU GPL version 3)).
+[indemnity supplement](LICENSE-SUPPLEMENT-INDEMNITY.md) (as allowed by part `#7` "Additional Terms"
+of GNU GPL version 3).
 
 ### COPYRIGHT
 
